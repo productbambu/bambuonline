@@ -21,7 +21,7 @@
   gtag('config', 'G-2MBQ229ZXM');
 </script>
 
-<!-- Meta Pixel Code -->
+<!-- Meta Pixel Code 1 -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -37,7 +37,25 @@ fbq('track', 'PageView');
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=1585510239893354&ev=PageView&noscript=1"
 /></noscript>
-<!-- End Meta Pixel Code -->
+<!-- End Meta Pixel Code 1 -->
+
+<!-- Meta Pixel Code 2 -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1390178353021452');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1390178353021452&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code 2 -->
 
 <!-- Microsoft Clarity -->
 <script type="text/javascript">
@@ -150,7 +168,7 @@ src="https://www.facebook.com/tr?id=1585510239893354&ev=PageView&noscript=1"
     to{opacity:1;transform:translateY(0)}
   }
 
-  /* ===== HERO WITH MASSAGE POSTER ===== */
+  /* ===== HERO WITH MASSAGE BANNER BACKGROUND ===== */
   .hero{
     position:relative;
     text-align:center;
@@ -168,7 +186,7 @@ src="https://www.facebook.com/tr?id=1585510239893354&ev=PageView&noscript=1"
   .hero-bg{
     position:absolute;
     inset:0;
-    /* Attractive Massage Background Image */
+    /* Attractive Massage Banner Background Image */
     background: url('https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&q=80') center/cover no-repeat;
     background-size: 115% 115%;
     animation: cinematicZoom 25s ease-in-out infinite alternate;
@@ -351,7 +369,6 @@ src="https://www.facebook.com/tr?id=1585510239893354&ev=PageView&noscript=1"
     overflow: hidden;
     border-radius: 20px 20px 0 0;
   }
-  /* Twinkling Stars */
   .footer-sky::before {
     content: '';
     position: absolute;
@@ -368,10 +385,7 @@ src="https://www.facebook.com/tr?id=1585510239893354&ev=PageView&noscript=1"
     opacity: 0.8;
     animation: twinkle 4s ease-in-out infinite alternate;
   }
-  @keyframes twinkle {
-    0% { opacity: 0.5; }
-    100% { opacity: 1; }
-  }
+  @keyframes twinkle { 0% { opacity: 0.5; } 100% { opacity: 1; } }
   .cloud {
     position: absolute;
     font-size: 30px;
@@ -379,10 +393,7 @@ src="https://www.facebook.com/tr?id=1585510239893354&ev=PageView&noscript=1"
     opacity: 0.7;
     animation: floatCloud linear infinite;
   }
-  @keyframes floatCloud {
-    0% { transform: translateX(-100px); }
-    100% { transform: translateX(100vw); }
-  }
+  @keyframes floatCloud { 0% { transform: translateX(-100px); } 100% { transform: translateX(100vw); } }
 
   .red-heart { color: #ff0000; display: inline-block; animation: heartBeat 1.5s ease-in-out infinite; text-shadow: 0 0 10px rgba(255, 0, 0, 0.8); margin: 0 2px; }
   @keyframes heartBeat { 0%, 100% { transform: scale(1); } 15% { transform: scale(1.3); } 30% { transform: scale(1); } 45% { transform: scale(1.15); } }
@@ -436,7 +447,7 @@ src="https://www.facebook.com/tr?id=1585510239893354&ev=PageView&noscript=1"
     </p>
     <div class="price-badge">शुरुआत मात्र ₹1230/- से</div>
     <br>
-    <a href="https://messenger.com/t/1134705776402298" target="_blank" class="messenger-btn">
+    <a href="https://messenger.com/t/1176740248865008" target="_blank" class="messenger-btn">
       <svg class="msg-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.36 2 2 6.13 2 11.7c0 2.91 1.44 5.48 3.71 7.19v3.11l3.42-1.9c.9.25 1.86.39 2.87.39 5.64 0 10-4.13 10-9.7S17.64 2 12 2zm1.01 12.47l-2.55-2.72-4.97 2.72 5.47-5.81 2.61 2.72 4.91-2.72-5.47 5.81z"/></svg>
       <span>CHAT ON MESSENGER</span>
     </a>
@@ -456,7 +467,7 @@ src="https://www.facebook.com/tr?id=1585510239893354&ev=PageView&noscript=1"
         made in <span class="red-heart">❤</span> with<br>
         <span style="font-size: 20px; font-weight: 900; letter-spacing: 4px; text-transform: uppercase; display: block; margin-top: 5px;">mumbai</span>
       </div>
-      <a href="https://messenger.com/t/1134705776402298" target="_blank" class="footer-messenger-btn">
+      <a href="https://messenger.com/t/1176740248865008" target="_blank" class="footer-messenger-btn">
         <svg class="messenger-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.36 2 2 6.13 2 11.7c0 2.91 1.44 5.48 3.71 7.19v3.11l3.42-1.9c.9.25 1.86.39 2.87.39 5.64 0 10-4.13 10-9.7S17.64 2 12 2zm1.01 12.47l-2.55-2.72-4.97 2.72 5.47-5.81 2.61 2.72 4.91-2.72-5.47 5.81z"/></svg>
         <span>CHAT ON MESSENGER</span>
       </a>
@@ -483,7 +494,7 @@ src="https://www.facebook.com/tr?id=1585510239893354&ev=PageView&noscript=1"
   <div class="service-card"><div class="service-head"><h3>💎 Premium Spa</h3><span class="price">₹1799/-</span></div><p>Luxury spa experience at your home</p></div>
   <div class="service-card"><div class="service-head"><h3>🌸 Couple Package</h3><span class="price">₹2299/-</span></div><p>Special package for her &amp; her loved one</p></div>
   <div style="text-align:center;margin-top:30px">
-    <a href="https://messenger.com/t/1134705776402298" target="_blank" class="messenger-btn">
+    <a href="https://messenger.com/t/1176740248865008" target="_blank" class="messenger-btn">
       <svg class="msg-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.36 2 2 6.13 2 11.7c0 2.91 1.44 5.48 3.71 7.19v3.11l3.42-1.9c.9.25 1.86.39 2.87.39 5.64 0 10-4.13 10-9.7S17.64 2 12 2zm1.01 12.47l-2.55-2.72-4.97 2.72 5.47-5.81 2.61 2.72 4.91-2.72-5.47 5.81z"/></svg>
       <span>CHAT ON MESSENGER</span>
     </a>
@@ -492,7 +503,7 @@ src="https://www.facebook.com/tr?id=1585510239893354&ev=PageView&noscript=1"
     <div class="footer-content">
       <span>Mumbai &amp; nearby areas only</span>
       <div style="margin-top: 15px; font-size: 14px; line-height: 1.6;">Prices may vary by location<br><span style="font-size: 20px; font-weight: 900; letter-spacing: 4px; text-transform: uppercase; display: block; margin-top: 5px;">mumbai</span></div>
-      <a href="https://messenger.com/t/1134705776402298" target="_blank" class="footer-messenger-btn">
+      <a href="https://messenger.com/t/1176740248865008" target="_blank" class="footer-messenger-btn">
         <svg class="messenger-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.36 2 2 6.13 2 11.7c0 2.91 1.44 5.48 3.71 7.19v3.11l3.42-1.9c.9.25 1.86.39 2.87.39 5.64 0 10-4.13 10-9.7S17.64 2 12 2zm1.01 12.47l-2.55-2.72-4.97 2.72 5.47-5.81 2.61 2.72 4.91-2.72-5.47 5.81z"/></svg>
         <span>CHAT ON MESSENGER</span>
       </a>
@@ -515,7 +526,7 @@ src="https://www.facebook.com/tr?id=1585510239893354&ev=PageView&noscript=1"
   <div class="contact-box">
     <h2>Chat with us on Messenger</h2>
     <p>Send a message to book your session or ask anything</p>
-    <a href="https://messenger.com/t/1134705776402298" target="_blank" class="messenger-btn">
+    <a href="https://messenger.com/t/1176740248865008" target="_blank" class="messenger-btn">
       <svg class="msg-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.36 2 2 6.13 2 11.7c0 2.91 1.44 5.48 3.71 7.19v3.11l3.42-1.9c.9.25 1.86.39 2.87.39 5.64 0 10-4.13 10-9.7S17.64 2 12 2zm1.01 12.47l-2.55-2.72-4.97 2.72 5.47-5.81 2.61 2.72 4.91-2.72-5.47 5.81z"/></svg>
       <span>CHAT ON MESSENGER</span>
     </a>
@@ -527,7 +538,7 @@ src="https://www.facebook.com/tr?id=1585510239893354&ev=PageView&noscript=1"
     <div class="footer-content">
       <span>© 2026 Bambu</span>
       <div style="margin-top: 15px; font-size: 14px; line-height: 1.6;">made in <span class="red-heart">❤</span> with<br><span style="font-size: 20px; font-weight: 900; letter-spacing: 4px; text-transform: uppercase; display: block; margin-top: 5px;">mumbai</span></div>
-      <a href="https://messenger.com/t/1134705776402298" target="_blank" class="footer-messenger-btn">
+      <a href="https://messenger.com/t/1176740248865008" target="_blank" class="footer-messenger-btn">
         <svg class="messenger-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.36 2 2 6.13 2 11.7c0 2.91 1.44 5.48 3.71 7.19v3.11l3.42-1.9c.9.25 1.86.39 2.87.39 5.64 0 10-4.13 10-9.7S17.64 2 12 2zm1.01 12.47l-2.55-2.72-4.97 2.72 5.47-5.81 2.61 2.72 4.91-2.72-5.47 5.81z"/></svg>
         <span>CHAT ON MESSENGER</span>
       </a>
@@ -600,4 +611,3 @@ window.addEventListener('scroll', attemptVibration, { passive: true });
 </script>
 </body>
 </html>
-
