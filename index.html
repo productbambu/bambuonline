@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <meta name="theme-color" content="#0a0a0a" />
-<title>Bambuu — Premium Home Service | Mumbai</title>
+<title>Bambu Massage — Premium Home Service | Mumbai</title>
 <meta name="description" content="Full massage service for females only at home. Mumbai & nearby areas. Starts at ₹1230/-." />
 
 <!-- Google Fonts - Tiro Devanagari Hindi -->
@@ -13,12 +13,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi:ital@0;1&display=swap" rel="stylesheet">
 
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-K4YZFR7BMJ"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2MBQ229ZXM"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-K4YZFR7BMJ');
+  gtag('config', 'G-2MBQ229ZXM');
 </script>
 
 <!-- Meta Pixel Code -->
@@ -31,11 +31,11 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1390178353021452');
+fbq('init', '1585510239893354');
 fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1390178353021452&ev=PageView&noscript=1"
+src="https://www.facebook.com/tr?id=1585510239893354&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
 
@@ -45,7 +45,7 @@ src="https://www.facebook.com/tr?id=1390178353021452&ev=PageView&noscript=1"
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
         t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "xs42jusywn");
+    })(window, document, "clarity", "script", "y2u5mmlv8e");
 </script>
 
 <style>
@@ -110,22 +110,21 @@ src="https://www.facebook.com/tr?id=1390178353021452&ev=PageView&noscript=1"
     font-weight: 900; 
     font-size: 26px; 
     letter-spacing: 0.5px;
-    background: linear-gradient(90deg, #4ade80, #22c55e, #16a34a);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #ffffff; /* White color as requested */
   }
   .logo-emoji{
     font-size:26px;
     margin-right:6px;
     display:inline-block;
-    animation: logoVibrate 0.3s linear infinite;
+    animation: logo3DVibrate 0.5s linear infinite;
+    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));
   }
-  @keyframes logoVibrate{
-    0%   { transform: translate(0,0) scale(1); }
-    25%  { transform: translate(-1px, 1px) scale(1.05); }
-    50%  { transform: translate(1px, -1px) scale(1.1); }
-    75%  { transform: translate(-1px, -1px) scale(1.05); }
-    100% { transform: translate(1px, 1px) scale(1); }
+  @keyframes logo3DVibrate{
+    0%   { transform: translate(0,0) scale(1) rotateY(0deg); }
+    25%  { transform: translate(-1px, 1px) scale(1.05) rotateY(10deg); }
+    50%  { transform: translate(1px, -1px) scale(1.1) rotateY(0deg); }
+    75%  { transform: translate(-1px, -1px) scale(1.05) rotateY(-10deg); }
+    100% { transform: translate(1px, 1px) scale(1) rotateY(0deg); }
   }
   .nav-links{display:flex;gap:6px;font-size:13px;font-weight:500}
   .nav-links button{
@@ -151,7 +150,7 @@ src="https://www.facebook.com/tr?id=1390178353021452&ev=PageView&noscript=1"
     to{opacity:1;transform:translateY(0)}
   }
 
-  /* ===== HERO WITH BAMBOO MASSAGE POSTER ===== */
+  /* ===== HERO WITH MASSAGE POSTER ===== */
   .hero{
     position:relative;
     text-align:center;
@@ -169,8 +168,8 @@ src="https://www.facebook.com/tr?id=1390178353021452&ev=PageView&noscript=1"
   .hero-bg{
     position:absolute;
     inset:0;
-    /* Attractive Bamboo Massage Poster Image */
-    background: url('https://images.unsplash.com/photo-1596178060671-7a80dc8059ea?w=1200&q=80') center/cover no-repeat;
+    /* Attractive Massage Background Image */
+    background: url('https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&q=80') center/cover no-repeat;
     background-size: 115% 115%;
     animation: cinematicZoom 25s ease-in-out infinite alternate;
     z-index:0;
@@ -208,11 +207,15 @@ src="https://www.facebook.com/tr?id=1390178353021452&ev=PageView&noscript=1"
   .hero-logo-emoji {
     display: inline-block;
     font-size: 120px;
-    animation: pulse 1.5s ease-in-out infinite, glow 2s ease-in-out infinite, heroVibrate 0.4s linear infinite;
+    animation: pulse3D 1.5s ease-in-out infinite, glow 2s ease-in-out infinite, heroVibrate 0.4s linear infinite;
+    filter: drop-shadow(0 10px 20px rgba(74,222,128,0.4));
   }
   @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-25px); } }
   @keyframes wiggle { 0%, 100% { transform: rotate(-12deg); } 50% { transform: rotate(12deg); } }
-  @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.15); } }
+  @keyframes pulse3D { 
+    0%, 100% { transform: scale(1) rotateY(0deg); } 
+    50% { transform: scale(1.15) rotateY(15deg); } 
+  }
   @keyframes glow { 0%, 100% { filter: drop-shadow(0 0 15px rgba(74,222,128,0.6)); } 50% { filter: drop-shadow(0 0 35px rgba(74,222,128,1)); } }
   @keyframes heroVibrate {
     0%   { transform: translate(0,0); } 25%  { transform: translate(-2px, 2px); }
@@ -338,78 +341,47 @@ src="https://www.facebook.com/tr?id=1390178353021452&ev=PageView&noscript=1"
   .footer-banner { position: fixed; bottom: 0; right: 0; width: 120px; height: 100vh; background: linear-gradient(180deg, rgba(10,10,10,0.3) 0%, rgba(10,10,10,0.8) 100%), url('https://images.unsplash.com/photo-1570164711283-194646a281a6?w=400&q=80') center/cover no-repeat; z-index: 1; opacity: 0.6; pointer-events: none; }
   .footer-content { position: relative; z-index: 2; text-shadow: 0 2px 4px rgba(0,0,0,0.8); display: flex; flex-direction: column; align-items: center; gap: 10px; }
 
-  /* ========== 3D BAMBOO FOREST (लोक) FOOTER ========== */
-  .footer-bamboo {
+  /* ========== 3D NIGHT SKY FOOTER ========== */
+  .footer-sky {
     width: 100%;
-    height: 180px;
+    height: 160px;
     margin-top: 30px;
-    background: linear-gradient(to top, #020a04 0%, #051f0d 40%, #0a3d1a 100%);
+    background: linear-gradient(to bottom, #020024 0%, #090979 40%, #2a0845 100%);
     position: relative;
     overflow: hidden;
     border-radius: 20px 20px 0 0;
-    perspective: 800px;
   }
-  /* Mist/Fog at the bottom */
-  .footer-bamboo::before {
+  /* Twinkling Stars */
+  .footer-sky::before {
     content: '';
     position: absolute;
-    bottom: 0; left: 0; right: 0;
-    height: 60px;
-    background: linear-gradient(to top, rgba(255,255,255,0.1), transparent);
-    filter: blur(10px);
-    z-index: 10;
-    animation: mistFlow 8s ease-in-out infinite alternate;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image: 
+      radial-gradient(1.5px 1.5px at 20px 30px, #fff, rgba(0,0,0,0)),
+      radial-gradient(1.5px 1.5px at 40px 70px, #fff, rgba(0,0,0,0)),
+      radial-gradient(2px 2px at 90px 40px, #fff, rgba(0,0,0,0)),
+      radial-gradient(1px 1px at 130px 80px, #fff, rgba(0,0,0,0)),
+      radial-gradient(2px 2px at 160px 120px, #fff, rgba(0,0,0,0)),
+      radial-gradient(1.5px 1.5px at 200px 50px, #fff, rgba(0,0,0,0));
+    background-repeat: repeat;
+    background-size: 250px 200px;
+    opacity: 0.8;
+    animation: twinkle 4s ease-in-out infinite alternate;
   }
-  @keyframes mistFlow { 0% { opacity: 0.3; transform: translateX(-10px); } 100% { opacity: 0.7; transform: translateX(10px); } }
-
-  /* 3D Bamboo Stalks */
-  .bamboo-stalk {
+  @keyframes twinkle {
+    0% { opacity: 0.5; }
+    100% { opacity: 1; }
+  }
+  .cloud {
     position: absolute;
-    bottom: 0;
-    width: 12px;
-    background: linear-gradient(90deg, #1a4d2e, #2d8a4e, #1a4d2e);
-    border-radius: 6px 6px 0 0;
-    transform-origin: bottom center;
-    animation: sway 4s ease-in-out infinite alternate;
-    box-shadow: inset -2px 0 4px rgba(0,0,0,0.5);
+    font-size: 30px;
+    filter: brightness(0.8) drop-shadow(0 0 8px rgba(255,255,255,0.2));
+    opacity: 0.7;
+    animation: floatCloud linear infinite;
   }
-  .bamboo-stalk::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 4px;
-    background: #0f2e1b;
-    top: 30%;
-    box-shadow: 0 40px 0 #0f2e1b, 0 80px 0 #0f2e1b, 0 120px 0 #0f2e1b;
-  }
-  /* Bamboo Leaves */
-  .bamboo-leaf {
-    position: absolute;
-    width: 20px;
-    height: 6px;
-    background: #4ade80;
-    border-radius: 0 10px 0 10px;
-    transform-origin: left center;
-    animation: leafSway 3s ease-in-out infinite alternate;
-  }
-  @keyframes sway { 0% { transform: rotate(-3deg); } 100% { transform: rotate(3deg); } }
-  @keyframes leafSway { 0% { transform: rotate(-10deg); } 100% { transform: rotate(10deg); } }
-
-  /* Glowing Fireflies */
-  .firefly {
-    position: absolute;
-    width: 4px;
-    height: 4px;
-    background: #facc15;
-    border-radius: 50%;
-    box-shadow: 0 0 10px #facc15, 0 0 20px #facc15;
-    animation: floatFirefly 6s ease-in-out infinite;
-  }
-  @keyframes floatFirefly {
-    0%, 100% { transform: translate(0, 0); opacity: 0; }
-    25% { opacity: 1; }
-    50% { transform: translate(20px, -30px); opacity: 0.8; }
-    75% { opacity: 1; }
+  @keyframes floatCloud {
+    0% { transform: translateX(-100px); }
+    100% { transform: translateX(100vw); }
   }
 
   .red-heart { color: #ff0000; display: inline-block; animation: heartBeat 1.5s ease-in-out infinite; text-shadow: 0 0 10px rgba(255, 0, 0, 0.8); margin: 0 2px; }
@@ -440,7 +412,7 @@ src="https://www.facebook.com/tr?id=1390178353021452&ev=PageView&noscript=1"
 <!-- NAV -->
 <nav>
   <div class="logo">
-    <span class="logo-emoji"></span> <span class="logo-yah">Bambuu</span>
+    <span class="logo-emoji">💆‍♀️</span> <span class="logo-yah">Bambu</span>
   </div>
   <div class="nav-links">
     <button data-page="services">Services</button>
@@ -454,10 +426,10 @@ src="https://www.facebook.com/tr?id=1390178353021452&ev=PageView&noscript=1"
     <div class="hero-bg"></div>
     <div class="logo-bounce">
       <div class="logo-wiggle">
-        <span class="hero-logo-emoji">🎋</span>
+        <span class="hero-logo-emoji">💆‍♀️</span>
       </div>
     </div>
-    <h1>Bambuu</h1>
+    <h1>Bambu Massage</h1>
     <p class="tagline">
       <span class="tagline-hindi">महिलाओं के लिए विशेष मसाज</span>
       <span class="tagline-sub">केवल मुंबई और आस-पास के इलाकों में</span>
@@ -471,15 +443,15 @@ src="https://www.facebook.com/tr?id=1390178353021452&ev=PageView&noscript=1"
   </div>
 
   <div class="features">
-    <div class="feature"><h3> At Your Doorstep</h3><p>Professional service in the comfort of your home</p></div>
+    <div class="feature"><h3>🏠 At Your Doorstep</h3><p>Professional service in the comfort of your home</p></div>
     <div class="feature"><h3>👩 Females Only</h3><p>Safe, private &amp; exclusively for women</p></div>
-    <div class="feature"><h3>🎋 Bamboo Massage</h3><p>Relax, unwind &amp; rejuvenate every muscle</p></div>
+    <div class="feature"><h3>💆‍♀️ Full Body Massage</h3><p>Relax, unwind &amp; rejuvenate every muscle</p></div>
     <div class="feature"><h3>📍 Mumbai &amp; Nearby</h3><p>Serving Mumbai city + nearest areas</p></div>
   </div>
 
   <footer>
     <div class="footer-content">
-      <span>© 2026 Bambuu</span>
+      <span>© 2026 Bambu</span>
       <div style="margin-top: 15px; font-size: 14px; line-height: 1.6;">
         made in <span class="red-heart">❤</span> with<br>
         <span style="font-size: 20px; font-weight: 900; letter-spacing: 4px; text-transform: uppercase; display: block; margin-top: 5px;">mumbai</span>
@@ -491,9 +463,13 @@ src="https://www.facebook.com/tr?id=1390178353021452&ev=PageView&noscript=1"
       <div style="margin-top: 20px; font-size: 10px; opacity: 0.7; letter-spacing: 1px;">all rights reserved • report abuse</div>
     </div>
     
-    <!-- 3D Bamboo Forest Footer -->
-    <div class="footer-bamboo" id="bambooForest">
-      <!-- Stalks, leaves, and fireflies will be generated by JS -->
+    <!-- 3D Night Sky Footer -->
+    <div class="footer-sky">
+      <div class="cloud" style="top: 20%; animation-duration: 18s; animation-delay: 0s;">☁️</div>
+      <div class="cloud" style="top: 50%; animation-duration: 25s; animation-delay: -7s; font-size: 45px;">☁️</div>
+      <div class="cloud" style="top: 70%; animation-duration: 14s; animation-delay: -3s; font-size: 28px;">☁️</div>
+      <div class="cloud" style="top: 30%; animation-duration: 22s; animation-delay: -12s; font-size: 38px;">☁️</div>
+      <div class="cloud" style="top: 80%; animation-duration: 16s; animation-delay: -5s; font-size: 32px;">☁️</div>
     </div>
   </footer>
 </section>
@@ -502,7 +478,7 @@ src="https://www.facebook.com/tr?id=1390178353021452&ev=PageView&noscript=1"
 <section class="page" id="services">
   <h2 class="section-title">Our Services</h2>
   <p class="section-sub">All services at your home • Females only</p>
-  <div class="service-card"><div class="service-head"><h3> Bamboo Massage</h3><span class="price">₹1230/-</span></div><p>Complete relaxation therapy — head to toe</p></div>
+  <div class="service-card"><div class="service-head"><h3>💆‍♀️ Full Body Massage</h3><span class="price">₹1230/-</span></div><p>Complete relaxation therapy — head to toe</p></div>
   <div class="service-card"><div class="service-head"><h3>🧴 Oil Massage</h3><span class="price">₹1499/-</span></div><p>Premium aromatic oils for deep nourishment</p></div>
   <div class="service-card"><div class="service-head"><h3>💎 Premium Spa</h3><span class="price">₹1799/-</span></div><p>Luxury spa experience at your home</p></div>
   <div class="service-card"><div class="service-head"><h3>🌸 Couple Package</h3><span class="price">₹2299/-</span></div><p>Special package for her &amp; her loved one</p></div>
@@ -522,7 +498,13 @@ src="https://www.facebook.com/tr?id=1390178353021452&ev=PageView&noscript=1"
       </a>
       <div style="margin-top: 20px; font-size: 10px; opacity: 0.7; letter-spacing: 1px;">all rights reserved • report abuse</div>
     </div>
-    <div class="footer-bamboo" id="bambooForest2"></div>
+    <div class="footer-sky">
+      <div class="cloud" style="top: 20%; animation-duration: 18s; animation-delay: 0s;">☁️</div>
+      <div class="cloud" style="top: 50%; animation-duration: 25s; animation-delay: -7s; font-size: 45px;">☁️</div>
+      <div class="cloud" style="top: 70%; animation-duration: 14s; animation-delay: -3s; font-size: 28px;">☁️</div>
+      <div class="cloud" style="top: 30%; animation-duration: 22s; animation-delay: -12s; font-size: 38px;">☁️</div>
+      <div class="cloud" style="top: 80%; animation-duration: 16s; animation-delay: -5s; font-size: 32px;">☁️</div>
+    </div>
   </footer>
 </section>
 
@@ -538,12 +520,12 @@ src="https://www.facebook.com/tr?id=1390178353021452&ev=PageView&noscript=1"
       <span>CHAT ON MESSENGER</span>
     </a>
     <div class="info-list">
-      <div>📍 Mumbai &amp; nearest areas</div><div>👩 Service for females only</div><div>💸 Starting at ₹1230/-</div><div>🕐 Available 9 AM – 9 PM</div><div> Home service only</div>
+      <div>📍 Mumbai &amp; nearest areas</div><div>👩 Service for females only</div><div>💸 Starting at ₹1230/-</div><div>🕐 Available 9 AM – 9 PM</div><div>🏠 Home service only</div>
     </div>
   </div>
   <footer>
     <div class="footer-content">
-      <span>© 2026 Bambuu</span>
+      <span>© 2026 Bambu</span>
       <div style="margin-top: 15px; font-size: 14px; line-height: 1.6;">made in <span class="red-heart">❤</span> with<br><span style="font-size: 20px; font-weight: 900; letter-spacing: 4px; text-transform: uppercase; display: block; margin-top: 5px;">mumbai</span></div>
       <a href="https://messenger.com/t/1134705776402298" target="_blank" class="footer-messenger-btn">
         <svg class="messenger-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.36 2 2 6.13 2 11.7c0 2.91 1.44 5.48 3.71 7.19v3.11l3.42-1.9c.9.25 1.86.39 2.87.39 5.64 0 10-4.13 10-9.7S17.64 2 12 2zm1.01 12.47l-2.55-2.72-4.97 2.72 5.47-5.81 2.61 2.72 4.91-2.72-5.47 5.81z"/></svg>
@@ -551,7 +533,13 @@ src="https://www.facebook.com/tr?id=1390178353021452&ev=PageView&noscript=1"
       </a>
       <div style="margin-top: 20px; font-size: 10px; opacity: 0.7; letter-spacing: 1px;">all rights reserved • report abuse</div>
     </div>
-    <div class="footer-bamboo" id="bambooForest3"></div>
+    <div class="footer-sky">
+      <div class="cloud" style="top: 20%; animation-duration: 18s; animation-delay: 0s;">☁️</div>
+      <div class="cloud" style="top: 50%; animation-duration: 25s; animation-delay: -7s; font-size: 45px;">☁️</div>
+      <div class="cloud" style="top: 70%; animation-duration: 14s; animation-delay: -3s; font-size: 28px;">☁️</div>
+      <div class="cloud" style="top: 30%; animation-duration: 22s; animation-delay: -12s; font-size: 38px;">☁️</div>
+      <div class="cloud" style="top: 80%; animation-duration: 16s; animation-delay: -5s; font-size: 32px;">☁️</div>
+    </div>
   </footer>
 </section>
 
@@ -581,51 +569,6 @@ setTimeout(() => {
     setTimeout(() => { rainAudio.pause(); rainAudio.currentTime = 0; }, 5000);
   }
 }, 5000);
-
-/* ========== 3D BAMBOO FOREST GENERATOR ========== */
-function createBambooForest(containerId) {
-  const container = document.getElementById(containerId);
-  if (!container) return;
-  
-  // Create Bamboo Stalks
-  for (let i = 0; i < 15; i++) {
-    const stalk = document.createElement('div');
-    stalk.className = 'bamboo-stalk';
-    const height = 100 + Math.random() * 80;
-    stalk.style.height = height + 'px';
-    stalk.style.left = (Math.random() * 100) + '%';
-    stalk.style.animationDelay = (Math.random() * 4) + 's';
-    stalk.style.animationDuration = (3 + Math.random() * 3) + 's';
-    stalk.style.zIndex = Math.floor(Math.random() * 3);
-    stalk.style.opacity = 0.6 + Math.random() * 0.4;
-    container.appendChild(stalk);
-    
-    // Add leaves to some stalks
-    if (Math.random() > 0.3) {
-      const leaf = document.createElement('div');
-      leaf.className = 'bamboo-leaf';
-      leaf.style.top = (20 + Math.random() * 60) + 'px';
-      leaf.style.left = '10px';
-      leaf.style.transform = Math.random() > 0.5 ? 'scaleX(1)' : 'scaleX(-1)';
-      leaf.style.animationDelay = (Math.random() * 3) + 's';
-      stalk.appendChild(leaf);
-    }
-  }
-  
-  // Create Fireflies
-  for (let i = 0; i < 8; i++) {
-    const firefly = document.createElement('div');
-    firefly.className = 'firefly';
-    firefly.style.left = (Math.random() * 100) + '%';
-    firefly.style.top = (20 + Math.random() * 60) + '%';
-    firefly.style.animationDelay = (Math.random() * 6) + 's';
-    firefly.style.animationDuration = (4 + Math.random() * 4) + 's';
-    container.appendChild(firefly);
-  }
-}
-createBambooForest('bambooForest');
-createBambooForest('bambooForest2');
-createBambooForest('bambooForest3');
 
 /* ========== PAGE NAVIGATION ========== */
 const pages = document.querySelectorAll('.page');
