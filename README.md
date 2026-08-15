@@ -321,41 +321,24 @@ src="https://www.facebook.com/tr?id=1390178353021452&ev=PageView&noscript=1"
   .footer-banner { position: fixed; bottom: 0; right: 0; width: 120px; height: 100vh; background: linear-gradient(180deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.7) 100%), url('https://images.unsplash.com/photo-1570164711283-194646a281a6?w=400&q=80') center/cover no-repeat; z-index: 1; opacity: 0.7; pointer-events: none; }
   .footer-content { position: relative; z-index: 2; display: flex; flex-direction: column; align-items: center; gap: 10px; color:#000; }
 
-  /* ========== 3D NIGHT SKY FOOTER ========== */
-  .footer-sky {
+  /* ========== MASSAGE FOOTER BACKGROUND ========== */
+  .footer-massage-bg {
     width: 100%;
-    height: 160px;
+    height: 180px;
     margin-top: 30px;
-    background: linear-gradient(to bottom, #020024 0%, #090979 40%, #2a0845 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.5) 100%), 
+                url('https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=800&q=80') center/cover no-repeat;
     position: relative;
     overflow: hidden;
     border-radius: 20px 20px 0 0;
+    box-shadow: inset 0 10px 30px rgba(0,0,0,0.3);
   }
-  .footer-sky::before {
+  .footer-massage-bg::before {
     content: '';
     position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background-image: 
-      radial-gradient(1.5px 1.5px at 20px 30px, #fff, rgba(0,0,0,0)),
-      radial-gradient(1.5px 1.5px at 40px 70px, #fff, rgba(0,0,0,0)),
-      radial-gradient(2px 2px at 90px 40px, #fff, rgba(0,0,0,0)),
-      radial-gradient(1px 1px at 130px 80px, #fff, rgba(0,0,0,0)),
-      radial-gradient(2px 2px at 160px 120px, #fff, rgba(0,0,0,0)),
-      radial-gradient(1.5px 1.5px at 200px 50px, #fff, rgba(0,0,0,0));
-    background-repeat: repeat;
-    background-size: 250px 200px;
-    opacity: 0.8;
-    animation: twinkle 4s ease-in-out infinite alternate;
+    inset: 0;
+    background: radial-gradient(ellipse at center, rgba(255,255,255,0.1) 0%, rgba(0,0,0,0.3) 100%);
   }
-  @keyframes twinkle { 0% { opacity: 0.5; } 100% { opacity: 1; } }
-  .cloud {
-    position: absolute;
-    font-size: 30px;
-    filter: brightness(0.8) drop-shadow(0 0 8px rgba(255,255,255,0.2));
-    opacity: 0.7;
-    animation: floatCloud linear infinite;
-  }
-  @keyframes floatCloud { 0% { transform: translateX(-100px); } 100% { transform: translateX(100vw); } }
 
   .red-heart { color: #ff0000; display: inline-block; animation: heartBeat 1.5s ease-in-out infinite; text-shadow: 0 0 10px rgba(255, 0, 0, 0.8); margin: 0 2px; }
   @keyframes heartBeat { 0%, 100% { transform: scale(1); } 15% { transform: scale(1.3); } 30% { transform: scale(1); } 45% { transform: scale(1.15); } }
@@ -368,6 +351,7 @@ src="https://www.facebook.com/tr?id=1390178353021452&ev=PageView&noscript=1"
     .tagline-hindi{font-size:28px;} 
     .tagline-sub{font-size:17px;}
     .price-badge{font-size:19px; padding:16px 38px;}
+    .footer-massage-bg { height: 220px; }
   }
   @media(min-width:900px){ .page{padding:110px 60px 0px;max-width:900px;margin:0 auto} }
   @media(max-width:480px){
@@ -378,6 +362,7 @@ src="https://www.facebook.com/tr?id=1390178353021452&ev=PageView&noscript=1"
     .tagline-hindi{font-size:20px;} .tagline-sub{font-size:13px;}
     .price-badge{font-size:15px; padding:12px 24px;}
     .footer-banner { width: 80px; } .msg-icon, .footer-messenger-btn .messenger-icon { width: 22px; height: 22px; }
+    .footer-massage-bg { height: 140px; }
   }
   ::-webkit-scrollbar{width:6px} ::-webkit-scrollbar-track{background:#f0f0f0} ::-webkit-scrollbar-thumb{background:#999;border-radius:3px}
 </style>
@@ -407,7 +392,7 @@ src="https://www.facebook.com/tr?id=1390178353021452&ev=PageView&noscript=1"
 <section class="page active" id="home">
   <div class="hero">
     <div class="hero-bg"></div>
-    <h1>Bambu Massage</h1>
+    <h1>Massage Service</h1>
     <p class="tagline">
       <span class="tagline-hindi">महिलाओं के लिए विशेष मसाज</span>
       <span class="tagline-sub">केवल मुंबई और आस-पास के इलाकों में</span>
@@ -441,14 +426,8 @@ src="https://www.facebook.com/tr?id=1390178353021452&ev=PageView&noscript=1"
       <div style="margin-top: 20px; font-size: 10px; opacity: 0.7; letter-spacing: 1px;">all rights reserved • report abuse</div>
     </div>
     
-    <!-- 3D Night Sky Footer -->
-    <div class="footer-sky">
-      <div class="cloud" style="top: 20%; animation-duration: 18s; animation-delay: 0s;">☁️</div>
-      <div class="cloud" style="top: 50%; animation-duration: 25s; animation-delay: -7s; font-size: 45px;">☁️</div>
-      <div class="cloud" style="top: 70%; animation-duration: 14s; animation-delay: -3s; font-size: 28px;">☁️</div>
-      <div class="cloud" style="top: 30%; animation-duration: 22s; animation-delay: -12s; font-size: 38px;">☁️</div>
-      <div class="cloud" style="top: 80%; animation-duration: 16s; animation-delay: -5s; font-size: 32px;">☁️</div>
-    </div>
+    <!-- Massage Footer Background -->
+    <div class="footer-massage-bg"></div>
   </footer>
 </section>
 
@@ -476,13 +455,8 @@ src="https://www.facebook.com/tr?id=1390178353021452&ev=PageView&noscript=1"
       </a>
       <div style="margin-top: 20px; font-size: 10px; opacity: 0.7; letter-spacing: 1px;">all rights reserved • report abuse</div>
     </div>
-    <div class="footer-sky">
-      <div class="cloud" style="top: 20%; animation-duration: 18s; animation-delay: 0s;">☁️</div>
-      <div class="cloud" style="top: 50%; animation-duration: 25s; animation-delay: -7s; font-size: 45px;">☁️</div>
-      <div class="cloud" style="top: 70%; animation-duration: 14s; animation-delay: -3s; font-size: 28px;">☁️</div>
-      <div class="cloud" style="top: 30%; animation-duration: 22s; animation-delay: -12s; font-size: 38px;">☁️</div>
-      <div class="cloud" style="top: 80%; animation-duration: 16s; animation-delay: -5s; font-size: 32px;">☁️</div>
-    </div>
+    <!-- Massage Footer Background -->
+    <div class="footer-massage-bg"></div>
   </footer>
 </section>
 
@@ -511,13 +485,8 @@ src="https://www.facebook.com/tr?id=1390178353021452&ev=PageView&noscript=1"
       </a>
       <div style="margin-top: 20px; font-size: 10px; opacity: 0.7; letter-spacing: 1px;">all rights reserved • report abuse</div>
     </div>
-    <div class="footer-sky">
-      <div class="cloud" style="top: 20%; animation-duration: 18s; animation-delay: 0s;">☁️</div>
-      <div class="cloud" style="top: 50%; animation-duration: 25s; animation-delay: -7s; font-size: 45px;">☁️</div>
-      <div class="cloud" style="top: 70%; animation-duration: 14s; animation-delay: -3s; font-size: 28px;">☁️</div>
-      <div class="cloud" style="top: 30%; animation-duration: 22s; animation-delay: -12s; font-size: 38px;">☁️</div>
-      <div class="cloud" style="top: 80%; animation-duration: 16s; animation-delay: -5s; font-size: 32px;">☁️</div>
-    </div>
+    <!-- Massage Footer Background -->
+    <div class="footer-massage-bg"></div>
   </footer>
 </section>
 
