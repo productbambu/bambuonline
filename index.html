@@ -128,7 +128,7 @@ src="https://www.facebook.com/tr?id=1390178353021452&ev=PageView&noscript=1"
     font-weight: 900; 
     font-size: 26px; 
     letter-spacing: 0.5px;
-    color: #ffffff; /* White color as requested */
+    color: #ffffff; /* White color */
   }
   .logo-emoji{
     font-size:26px;
@@ -161,6 +161,8 @@ src="https://www.facebook.com/tr?id=1390178353021452&ev=PageView&noscript=1"
     position:relative;
     z-index:1;
     animation:pageIn .7s ease;
+    /* Subtle massage-themed background for the whole content area */
+    background: radial-gradient(circle at 50% 0%, rgba(74,222,128,0.03) 0%, transparent 50%), #0a0a0a;
   }
   .page.active{display:block}
   @keyframes pageIn{
@@ -168,7 +170,7 @@ src="https://www.facebook.com/tr?id=1390178353021452&ev=PageView&noscript=1"
     to{opacity:1;transform:translateY(0)}
   }
 
-  /* ===== HERO WITH MASSAGE BANNER BACKGROUND ===== */
+  /* ===== HERO WITH STUNNING MASSAGE BANNER BACKGROUND ===== */
   .hero{
     position:relative;
     text-align:center;
@@ -186,7 +188,7 @@ src="https://www.facebook.com/tr?id=1390178353021452&ev=PageView&noscript=1"
   .hero-bg{
     position:absolute;
     inset:0;
-    /* Attractive Massage Banner Background Image */
+    /* High-quality attractive massage banner background */
     background: url('https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&q=80') center/cover no-repeat;
     background-size: 115% 115%;
     animation: cinematicZoom 25s ease-in-out infinite alternate;
@@ -200,7 +202,7 @@ src="https://www.facebook.com/tr?id=1390178353021452&ev=PageView&noscript=1"
     content:"";
     position:absolute;
     inset:0;
-    background:linear-gradient(180deg, rgba(5,20,10,0.75) 0%, rgba(5,20,10,0.85) 50%, rgba(5,20,10,0.98) 100%);
+    background:linear-gradient(180deg, rgba(5,20,10,0.70) 0%, rgba(5,20,10,0.85) 50%, rgba(5,20,10,0.98) 100%);
     z-index:1;
   }
   .hero::after{
